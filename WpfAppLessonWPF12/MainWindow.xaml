@@ -6,11 +6,14 @@
         xmlns:local="clr-namespace:WpfAppLessonWPF12"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <UniformGrid>
-        <CheckBox Content="123">
-            
-            
-        </CheckBox>
+    <UniformGrid Rows="4">
+        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Content="Батон"/>
+        
+        <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Content="123"/>
+
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="qqqqq"/>
+
+        <ScrollBar/>
 
     </UniformGrid>
 </Window>
